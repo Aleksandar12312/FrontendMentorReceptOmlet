@@ -1,0 +1,60 @@
+body{
+    background-color:antiquewhite;
+    margin: 5% 20% 5% 20%;
+    Font-size: 16px;
+    Font-family: Ariel;
+
+}
+#slika{
+    border-radius: 15px;
+    width: 100%;
+}
+.container{
+    background-color: white;
+    padding: 5rem;
+    border-radius: 15px;
+    line-height: 1.3;
+}
+.Preparation{
+    Background-color: hsl(341, 90%, 92%);
+    padding: 15px;
+    border-radius: 15px;
+}
+.bold{
+    display: inline-block;/*ovo smo morali jer je div automatski displey:block, trebali smo span*/
+    font-weight: bold;
+
+}
+#naslov{
+    Font-size: 40px;
+    font-weight: bold;
+
+}
+#uvod{
+    padding: 2rem;
+}
+.naslovi{
+    Font-size: 25px;
+    color: hsl(14, 45%, 37%);
+}
+#preparationNaslov{
+    font-size: 20px;
+    color: hsl(310, 92%, 28%);
+}
+li::marker {/*nzm sta je */
+    color: hsl(14, 45%, 37%);
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;/* collapse i separate(da li su celije u tabeli spojene ili odvojene)*/
+}
+td{
+    padding: 12px 0px;
+    border-bottom: 1px solid #ccc;
+    color: #7b3f1d;
+}
+td:last-child{
+    font-weight: bold;
+    color: #7b3f1d;
+}
